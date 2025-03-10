@@ -1,0 +1,66 @@
+body{
+    background-color: darkseagreen;
+    display: flex;
+}
+
+div{
+    flex-wrap: wrap;
+    padding: 3px;
+    margin: top 0.5em;
+}
+.lollipop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+   
+.swirl{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 9px dashed palevioletred;
+    background: conic-gradient(purple, orange,pink, teal, yellow, green);
+}
+
+.stick{
+    border: 6px solid whitesmoke;
+    align-content: flex-start;
+    width: 10px;
+    height: 80px;
+    background-color: whitesmoke;
+    
+}
+
+.art-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.mountains{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.triangle0{
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 250px solid green;
+    
+}
+
+.triangle1{
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 300px solid green;
+}
+
+
+@media screen and (max-width:390px){
+    .flexContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+} 
+    
+
